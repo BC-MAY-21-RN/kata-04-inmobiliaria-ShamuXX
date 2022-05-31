@@ -12,7 +12,7 @@ const Item = props => {
     direction,
     img,
     numberRooms,
-    Numberbaths,
+    numberbaths,
     surface,
     price,
     review,
@@ -27,12 +27,12 @@ const Item = props => {
             color="#fff"
             style={styles.iconStar}
           />
-          <Text style={styles.textReview}>4.5</Text>
+          <Text style={styles.textReview}>{review}</Text>
         </View>
-        <Image source={ImgExample} style={styles.imgStyle} />
+        <Image source={img} style={styles.imgStyle} />
       </View>
       <View>
-        <Text style={styles.title}>Lugar</Text>
+        <Text style={styles.title}>{name}</Text>
         <View style={styles.locationStyle}>
           <Icon
             name="md-location-outline"
@@ -40,7 +40,7 @@ const Item = props => {
             color="#fff"
             style={styles.iconLocate}
           />
-          <Text style={styles.text1}>Ubicación</Text>
+          <Text style={styles.text1}>{direction}</Text>
         </View>
         <View style={styles.elementsIcons}>
           <View style={styles.elementsPosition}>
@@ -50,7 +50,7 @@ const Item = props => {
               color="#fff"
               style={styles.iconLocate}
             />
-            <Text style={styles.textPosition}>2</Text>
+            <Text style={styles.textPosition}>{numberRooms}</Text>
           </View>
           <View style={styles.elementsPosition}>
             <IconAwesone
@@ -59,7 +59,7 @@ const Item = props => {
               color="#fff"
               style={styles.iconLocate}
             />
-            <Text style={styles.textPosition}>2</Text>
+            <Text style={styles.textPosition}>{numberbaths}</Text>
           </View>
           <View style={styles.elementsPosition}>
             <IconSimple
@@ -68,10 +68,10 @@ const Item = props => {
               color="#fff"
               style={styles.iconLocate}
             />
-            <Text style={styles.textPosition}>234ft</Text>
+            <Text style={styles.textPosition}>{surface}</Text>
           </View>
         </View>
-        <Text style={styles.price}>$400</Text>
+        <Text style={styles.price}>{price}</Text>
       </View>
       <View>
         <Icon
