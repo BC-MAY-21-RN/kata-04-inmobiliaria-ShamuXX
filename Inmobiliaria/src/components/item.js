@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/dist/Ionicons';
 import IconAwesone from 'react-native-vector-icons/dist/MaterialCommunityIcons';
 import IconAntDesing from 'react-native-vector-icons/dist/AntDesign';
 import IconSimple from 'react-native-vector-icons/dist/SimpleLineIcons';
-import ImgExample from './images/cover.jpg';
+import inmobiliaries from '../dataBase/data';
 
 const Item = props => {
   const {
