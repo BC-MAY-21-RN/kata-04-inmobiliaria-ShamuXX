@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Tha Willows",
+    "direction": "3517 W. Gray St. Utica",
+    "img": "https://maarquitectura.com.mx/wp-content/uploads/2021/06/Conoce-las-top-fachadas-de-casas-en-Mexico.jpg",
+    "numberRooms": 5,
+    "numberbaths": 2,
+    "surface": "254ft",
+    "price": "517/m",
+    "review": 4.9
+  },
+  {
+    "id": 2,
+    "name": "Mr Mime",
+    "direction": "3517 W. Gray St. Utica",
+    "img": "https://images.adsttc.com/media/images/5f90/e509/63c0/1779/0100/010e/newsletter/3.jpg?1603331288",
+    "numberRooms": 5,
+    "numberbaths": 2,
+    "surface": "254ft",
+    "price": "517/m",
+    "review": 4.9
+  },
+  {
+    "id": 3,
+    "name": "Columbus",
+    "direction": "3517 W. Gray St. Utica",
+    "img": "https://maarquitectura.com.mx/wp-content/uploads/2021/06/Conoce-las-top-fachadas-de-casas-en-Mexico.jpg",
+    "numberRooms": 5,
+    "numberbaths": 2,
+    "surface": "254ft",
+    "price": "517/m",
+    "review": 4.9
+  },
+  {
+    "id": 4,
+    "name": "Riven House",
+    "direction": "3517 W. Gray St. Utica",
+    "img": "https://images.adsttc.com/media/images/5f90/e509/63c0/1779/0100/010e/newsletter/3.jpg?1603331288",
+    "numberRooms": 5,
+    "numberbaths": 2,
+    "surface": "254ft",
+    "price": "517/m",
+    "review": 4.9
+  },
+  {
+    "id": 5,
+    "name": "Tha Willows",
+    "direction": "3517 W. Gray St. Utica",
+    "img": "https://maarquitectura.com.mx/wp-content/uploads/2021/06/Conoce-las-top-fachadas-de-casas-en-Mexico.jpg",
+    "numberRooms": 5,
+    "numberbaths": 2,
+    "surface": "254ft",
+    "price": "517/m",
+    "review": 4.9
+  }
+]
